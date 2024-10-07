@@ -1,6 +1,6 @@
 # HackIndia-Spark-4-Innova8ors
 
-------------------------------------Generative AI Model with Decentralized Storage using IPFS, Flask, and Cohere----------------------------------------------------
+------------------------------------Generative AI Model with Decentralized Storage using IPFS, Flask, and Cohere-----------------------------------
 This project develops a Generative AI model that creates unique digital content such as images and text. It stores the generated content using 
 IPFS (InterPlanetary File System) for decentralized storage, ensuring immutability and accessibility through Web3.0 protocols. The project
 uses Hugging Face for image generation, Cohere for text generation, Infura for interacting with IPFS, and Flask to host the web interface.
