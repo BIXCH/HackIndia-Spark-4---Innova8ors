@@ -1,6 +1,7 @@
 # HackIndia-Spark-4-Innova8ors
 
 ----------------Generative AI Model with Decentralized Storage using IPFS, Flask, and Cohere-----------
+
 This project develops a Generative AI model that creates unique digital content such as images and text. It stores the generated content using 
 IPFS (InterPlanetary File System) for decentralized storage, ensuring immutability and accessibility through Web3.0 protocols. The project
 uses Hugging Face for image generation, Cohere for text generation, Infura for interacting with IPFS, and Flask to host the web interface.
@@ -25,6 +26,7 @@ Key Features:
 4. Database: MySQL database for storing the IPFS CIDs and associated metadata.
 
 ------------------------Tech Stack-----------------------------------------------
+
 Backend: Flask, Python
 1. Image Generation: Hugging Face API
 2. Text Generation: Cohere API
@@ -35,6 +37,7 @@ Backend: Flask, Python
 
 
 ------------------Installation----------------------------------------------------
+
 Prerequisites
 >> Python 3.x
 >> MySQL installed and running
@@ -43,6 +46,7 @@ Prerequisites
 >> Cohere API key (for text generation)
 
 ---------------------How It Works-------------------------------------
+
 1. Image and Text Generation:
 Hugging Face: Flask sends a request to the Hugging Face API to generate images.
 Cohere: Flask sends a request to the Cohere API to generate text (such as image descriptions or metadata).
@@ -57,6 +61,7 @@ The CID along with the image description or generated text and associated metada
 Users can view generated images and texts, retrieve them via CIDs, and interact with the model.
 
 -------------------API Endpoints------------------------------------------
+
 1. /generate-image (POST)
 Description: Generates a new image using Hugging Face and stores it in IPFS.
 Response: Returns the CID of the image and a success message.
